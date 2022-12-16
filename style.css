@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+}
+
+body>header>nav {
+    background-color: #ffacd3;
+    color: white;
+    margin: 0;
+    padding: 10px;
+}
+
+nav .nav-title {
+    font-size: 20pt;
+}
+
+.cent-content {
+    max-width: 1200px;
+    margin: auto auto;
+}
+
+.cent-content>section {
+    margin: 0;
+    padding: 15px;
+}
+
+.cent-content>section:nth-child(even) {
+    background-color: #eee;
+}
+
+h2 {
+    font-size: 20pt;
+}
